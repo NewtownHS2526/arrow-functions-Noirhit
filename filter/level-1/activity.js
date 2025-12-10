@@ -110,11 +110,13 @@ Write your solution using:
 
 const exercise1Array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+
 // Your solution here (one-line arrow function):
-// const exercise1Result1 = 
+ const exercise1Result1 = exercise1Array.filter(n => n % 2 !== 0);
+console.log( "odd numbers are:", exercise1Result1);
 
 // Your solution here (regular arrow function):
-// const exercise1Result2 = 
+
 
 // Uncomment to test:
 // console.log("Exercise 1 - One-line:", exercise1Result1);
